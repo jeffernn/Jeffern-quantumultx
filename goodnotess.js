@@ -1,8 +1,17 @@
+/*************************************
+
+项目名称：Goodnotes6
+下载地址：https://t.cn/A6K6ZSZS
+脚本作者：chxm1023
+电报频道：https://t.me/chxm1023
+使用声明：⚠️仅供参考，🈲转载与售卖！
+
+**************************************
+
 [rewrite_local]
-^https:\/\/isi\.csan\.goodnotes\.com\.cn\/.+\/(receipts$|subscribers\/?(.*?)*$) url script-response-body 
-https://raw.githubusercontent.com/jeffernn/Jeffern-quantumultx/refs/heads/main/goodnotess.js
-^https:\/\/isi\.csan\.goodnotes\.com\.cn/.+\/(receipts$|subscribers\/?(.*?)*$) url script-request-header 
-https://raw.githubusercontent.com/jeffernn/Jeffern-quantumultx/refs/heads/main/goodnotess.js
+^https:\/\/isi\.csan\.goodnotes\.com\.cn\/.+\/(receipts$|subscribers\/?(.*?)*$) url script-response-body https://raw.githubusercontent.com/jeffernn/Jeffern-quantumultx/refs/heads/main/goodnotess.js
+^https:\/\/isi\.csan\.goodnotes\.com\.cn\/.+\/(receipts$|subscribers\/?(.*?)*$) url script-request-header https://raw.githubusercontent.com/jeffernn/Jeffern-quantumultx/refs/heads/main/goodnotess.js
+
 [mitm]
 hostname = isi.csan.goodnotes.com.cn
 
@@ -23,15 +32,15 @@ if (typeof $response == "undefined") {
     chxm1023.headers = $request.headers;
 } else if (chxm1024 && chxm1024.subscriber) {
     data = {
-        "Author": "jeffern",
-        "Telegram": "https://t.me/jeffern",
-        "warning": "破解成功啦",
+        "Author": "chxm1023",
+        "Telegram": "https://t.me/chxm1023",
+        "warning": "仅供学习，禁止转载或售卖",
         "purchase_date": "2022-09-09T09:09:09Z"
     };
     chxm1024.subscriber.subscriptions[(jsid)] = {
-        "Author": "jeffern",
-        "Telegram": "https://t.me/jeffern",
-        "warning": "破解成功啦",
+        "Author": "chxm1023",
+        "Telegram": "https://t.me/chxm1023",
+        "warning": "仅供学习，禁止转载或售卖",
         "original_purchase_date": "2022-09-09T09:09:09Z",
         "purchase_date": "2022-09-09T09:09:09Z",
         "store": "app_store",
