@@ -1,8 +1,8 @@
 [rewrite_local]
 ^https:\/\/isi\.csan\.goodnotes\.com\.cn\/.+\/(receipts$|subscribers\/?(.*?)*$) url script-response-body 
-https://raw.githubusercontent.com/jeffernn/Jeffern-quantumultx/refs/heads/main/goodnotes.js
+https://raw.githubusercontent.com/jeffernn/Jeffern-quantumultx/refs/heads/main/goodnotess.js
 ^https:\/\/isi\.csan\.goodnotes\.com\.cn/.+\/(receipts$|subscribers\/?(.*?)*$) url script-request-header 
-https://raw.githubusercontent.com/jeffernn/Jeffern-quantumultx/refs/heads/main/goodnotes.js
+https://raw.githubusercontent.com/jeffernn/Jeffern-quantumultx/refs/heads/main/goodnotess.js
 [mitm]
 hostname = isi.csan.goodnotes.com.cn
 
