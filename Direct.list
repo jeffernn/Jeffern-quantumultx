@@ -406,7 +406,6 @@ IP-CIDR,192.168.0.0/16,China
 IP-CIDR,198.18.0.0/16,China
 IP-CIDR,224.0.0.0/4,China
 # Router managed 路由器管理域名
-HOST-SUFFIX,hiwifi.com
 HOST-SUFFIX,leike.cc
 HOST-SUFFIX,miwifi.com
 HOST-SUFFIX,my.router
