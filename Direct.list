@@ -406,10 +406,6 @@ IP-CIDR,192.168.0.0/16,China
 IP-CIDR,198.18.0.0/16,China
 IP-CIDR,224.0.0.0/4,China
 # Router managed 路由器管理域名
-HOST,instant.arubanetworks.com
-HOST,setmeup.arubanetworks.com
-HOST,router.asus.com
-HOST,www.asusrouter.com
 HOST-SUFFIX,hiwifi.com
 HOST-SUFFIX,leike.cc
 HOST-SUFFIX,miwifi.com
@@ -430,36 +426,10 @@ HOST-SUFFIX,ol.epicgames.com
 HOST-SUFFIX,dizhensubao.getui.com
 
 # Google
-HOST,dl.google.com
 HOST-SUFFIX,googletraveladservices.com
 
 # Mozilla
 HOST-SUFFIX,tracking-protection.cdn.mozilla.net
-
-# Origin
-HOST,origin-a.akamaihd.net
-
-# Tencent
-HOST,fairplay.l.qq.com
-HOST,livew.l.qq.com
-HOST,vd.l.qq.com
-
-# Strava
-
-# Umeng
-HOST,errlog.umeng.com
-HOST,msg.umeng.com
-HOST,msg.umengcloud.com
-
-# Miui 小米
-HOST,tracking.miui.com
-
-# General
-HOST,app.adjust.com
-HOST,bdtj.tagtic.cn
-
-# Hypixel Network
-HOST,rewards.hypixel.net
 
 # Koodo Mobile
 HOST-SUFFIX,koodomobile.com
@@ -494,20 +464,7 @@ HOST-SUFFIX,toolbarqueries.google.com
 HOST-SUFFIX,tools.google.com
 HOST-SUFFIX,tools.l.google.com
 HOST-SUFFIX,www-googletagmanager.l.google.com
-# 内容：SteamCN
-# 数量：16条
-HOST,csgo.wmsj.cn
-HOST,dl.steam.clngaa.com
-HOST,dl.steam.ksyna.com
-HOST,dota2.wmsj.cn
-HOST,st.dl.bscstorage.net
-HOST,st.dl.eccdnx.com
-HOST,st.dl.pinyuncloud.com
-HOST,steampipe.steamcontent.tnkjmec.com
-HOST,steampowered.com.8686c.com
-HOST,steamstatic.com.8686c.com
-HOST,wmsjsteam.com
-HOST,xz.pphimalayanrt.com
+# 内容：SteamC
 HOST-SUFFIX,cm.steampowered.com
 HOST-SUFFIX,steamchina.com
 HOST-SUFFIX,steamcontent.com
