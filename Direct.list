@@ -405,19 +405,6 @@ IP-CIDR,172.16.0.0/12,China
 IP-CIDR,192.168.0.0/16,China
 IP-CIDR,198.18.0.0/16,China
 IP-CIDR,224.0.0.0/4,China
-# Router managed 路由器管理域名
-HOST-SUFFIX,leike.cc
-HOST-SUFFIX,miwifi.com
-HOST-SUFFIX,my.router
-HOST-SUFFIX,p.to
-HOST-SUFFIX,peiluyou.com
-HOST-SUFFIX,phicomm.me
-HOST-SUFFIX,router.ctc
-HOST-SUFFIX,routerlogin.com
-HOST-SUFFIX,tendawifi.com
-HOST-SUFFIX,zte.home
-HOST-SUFFIX,tplogin.cn
-HOST-SUFFIX,wifi.cmcc
 # Epicgames
 HOST-SUFFIX,ol.epicgames.com
 
